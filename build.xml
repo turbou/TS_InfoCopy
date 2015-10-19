@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<project name="TS_InfoCopy" default="jar" basedir="." >
+    <target name="jar">
+        <jar basedir="bin" jarfile="infocopy.jar">
+            <manifest>
+                 <attribute name="Plugin-Class" value="jp.co.nri.ttsplugin.InfoCopyPlugin"/>
+             </manifest>
+      	</jar>
+    </target>
+</project>
