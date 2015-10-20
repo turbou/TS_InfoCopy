@@ -1,4 +1,4 @@
-package jp.co.nri.ttsplugin;
+package jp.co.tabocom.tsplugin.infocopy;
 
 import org.eclipse.jface.viewers.ISelectionProvider;
 import org.eclipse.swt.dnd.Clipboard;

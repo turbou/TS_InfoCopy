@@ -3,7 +3,7 @@
     <target name="jar">
         <jar basedir="bin" jarfile="infocopy.jar">
             <manifest>
-                 <attribute name="Plugin-Class" value="jp.co.nri.ttsplugin.InfoCopyPlugin"/>
+                 <attribute name="Plugin-Class" value="jp.co.tabocom.tsplugin.infocopy.InfoCopyPlugin"/>
              </manifest>
       	</jar>
     </target>

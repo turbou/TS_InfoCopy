@@ -1,4 +1,4 @@
-package jp.co.nri.ttsplugin;
+package jp.co.tabocom.tsplugin.infocopy;
 
 import java.util.ArrayList;
 import java.util.Arrays;
