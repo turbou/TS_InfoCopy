@@ -15,7 +15,7 @@ public class InfoCopyAction extends TeraTermStationAction {
     }
 
     @Override
-    public boolean isValid(TargetNode node) {
+    public boolean isValid() {
         return true;
     }
 
