@@ -7,9 +7,9 @@ import org.eclipse.swt.dnd.Transfer;
 import org.eclipse.swt.widgets.Shell;
 
 import jp.co.tabocom.teratermstation.model.TargetNode;
-import jp.co.tabocom.teratermstation.ui.action.TeraTermStationAction;
+import jp.co.tabocom.teratermstation.ui.action.TeratermStationAction;
 
-public class InfoCopyAction extends TeraTermStationAction {
+public class InfoCopyAction extends TeratermStationAction {
     protected InfoCopyAction(TargetNode node, Shell shell, ISelectionProvider selectionProvider) {
         super("情報をコピー", "info.png", node, shell, selectionProvider);
     }

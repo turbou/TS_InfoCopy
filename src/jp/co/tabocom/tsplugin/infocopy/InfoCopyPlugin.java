@@ -9,14 +9,20 @@ import org.eclipse.jface.viewers.ISelectionProvider;
 import org.eclipse.swt.widgets.Shell;
 
 import jp.co.tabocom.teratermstation.model.TargetNode;
-import jp.co.tabocom.teratermstation.plugin.TeraTermStationPlugin;
-import jp.co.tabocom.teratermstation.ui.action.TeraTermStationAction;
+import jp.co.tabocom.teratermstation.plugin.TeratermStationPlugin;
+import jp.co.tabocom.teratermstation.ui.action.TeratermStationAction;
+import jp.co.tabocom.teratermstation.ui.action.TeratermStationBulkAction;
 
-public class InfoCopyPlugin implements TeraTermStationPlugin {
+public class InfoCopyPlugin implements TeratermStationPlugin {
 
     @Override
-    public List<TeraTermStationAction> getActions(TargetNode node, Shell shell, ISelectionProvider selectionProvider) {
-        return new ArrayList<TeraTermStationAction>(Arrays.asList(new InfoCopyAction(node, shell, selectionProvider)));
+    public List<TeratermStationAction> getActions(TargetNode node, Shell shell, ISelectionProvider selectionProvider) {
+        return new ArrayList<TeratermStationAction>(Arrays.asList(new InfoCopyAction(node, shell, selectionProvider)));
+    }
+
+    @Override
+    public List<TeratermStationBulkAction> getBulkActions(List<TargetNode> nodeList, Shell shell) {
+        return null;
     }
 
     @Override
