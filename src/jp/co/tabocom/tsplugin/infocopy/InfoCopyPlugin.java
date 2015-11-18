@@ -32,10 +32,10 @@ public class InfoCopyPlugin implements TeratermStationPlugin {
     }
 
     @Override
-    public void initialize() {
+    public void initialize() throws Exception {
     }
 
     @Override
-    public void teminate(PreferenceStore preferenceStore) {
+    public void teminate(PreferenceStore preferenceStore) throws Exception {
     }
 }
