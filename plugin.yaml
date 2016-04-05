@@ -1,9 +1,11 @@
 name: jp.co.tabocom.tsplugin.infocopy.InfoCopyPlugin
-lifecycle: null
-context:
-  submenu: null
-  actions: |
-    jp.co.tabocom.tsplugin.infocopy.InfoCopyAction
-bulkaction: null
-preferencepage: null
-dndaction: null
+version: 1.0.1
+class:
+  lifecycle: null
+  context:
+    submenu: null
+    actions: |
+      jp.co.tabocom.tsplugin.infocopy.InfoCopyAction
+  bulkaction: null
+  preferencepage: null
+  dndaction: null
