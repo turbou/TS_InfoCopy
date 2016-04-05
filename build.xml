@@ -5,9 +5,7 @@
 			<manifest>
 				<attribute name="Plugin-Class" value="jp.co.tabocom.tsplugin.infocopy.InfoCopyPlugin" />
 			</manifest>
-			<fileset dir="./">
-				<include name="plugin.yaml" />
-			</fileset>
+			<fileset dir="." includes="plugin.yaml" />
 		</jar>
 	</target>
 </project>
