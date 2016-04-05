@@ -1,0 +1,8 @@
+lifecycle: null
+context:
+  submenu: null
+  actions: |
+    jp.co.tabocom.tsplugin.infocopy.InfoCopyAction
+bulkaction: null
+preferencepage: null
+dndaction: null
