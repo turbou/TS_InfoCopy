@@ -3,7 +3,7 @@ version: 1.0.1
 class:
   lifecycle: null
   context:
-    submenu: null
+    submenus: null
     actions: |
       jp.co.tabocom.tsplugin.infocopy.InfoCopyAction
   bulkaction: null

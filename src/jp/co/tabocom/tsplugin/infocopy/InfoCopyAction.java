@@ -10,6 +10,11 @@ import jp.co.tabocom.teratermstation.model.TargetNode;
 import jp.co.tabocom.teratermstation.ui.action.TeratermStationAction;
 
 public class InfoCopyAction extends TeratermStationAction {
+    
+    public InfoCopyAction() {
+        super("情報をコピー", "info.png");
+    }
+    
     protected InfoCopyAction(TargetNode node, Shell shell, ISelectionProvider selectionProvider) {
         super("情報をコピー", "info.png", node, shell, selectionProvider);
     }
